@@ -1,0 +1,38 @@
+{
+  "name": "quick.gt",
+  "version": "2.0.4",
+  "description": "A simple & easy to use economy package for discord bots using quick.db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-docs": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheaSlemex/quick.gt.git"
+  },
+  "keywords": [
+    "quick.gt",
+    "quick.db",
+    "discord",
+    "discord.js",
+    "discord.js-economy",
+    "quick.db-economy",
+    "eris-economy"
+  ],
+  "author": "Thea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheaSlemex/quick.gt/issues"
+  },
+  "homepage": "https://github.com/TheaSlemex/quick.gt#readme",
+  "dependencies": {
+    "quick.db": "^7.1.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.3",
+    "minami": "github:Androz2091/minami",
+    "prettier": "^2.0.5"
+  }
+}
